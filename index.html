@@ -18,7 +18,7 @@
     <div class="container">
       <div class="row">
         <div class="text-center col-md-7 mx-auto"> <i class="fa d-block fa-bullseye fa-5x mb-4 text-info"></i>
-          <h2><b>Arxiv Daily - 2024-02-10</b></h2>
+          <h2><b>Arxiv Daily - 2024-02-11</b></h2>
         </div>
       </div>
     </div>
@@ -4621,7 +4621,7 @@
                                       id="ID_2308_15984v2_1_ZH"
                                       role="tabpanel">
                                       <div class="modal-body">
-                                        <p>在本文中，我们通过使用图注意力网络来解决从运动中学习结构（SfM）的问题。SfM是一个经典的计算机视觉问题，通过迭代最小化重投影误差来解决，称为束调整（BA），从良好的初始化开始。为了获得对BA足够好的初始化，传统方法依赖于一系列子问题（如成对姿态估计、姿态平均或三角测量），这些子问题提供了一个初始解决方案，然后可以使用BA进行细化。在这项工作中，我们通过学习一个模型来替换这些子问题，该模型将在多个视图中检测到的2D关键点作为输入，并输出相应的相机姿态和3D关键点坐标。我们的模型利用图神经网络来学习SfM特定的基元，并表明它可以用于新的和看不见的序列的重建的快速推理。实验结果表明，所提出的模型优于竞争的基于学习的方法，并在具有较低运行时间的同时挑战了COLMAP。</p>
+                                        <p>在本文中，我们通过使用图注意力网络来解决从运动中学习结构（SfM）的问题。SfM是一个经典的计算机视觉问题，通过迭代最小化重投影误差来解决，称为束调整（BA），从良好的初始化开始。为了获得足够好的BA初始化，传统方法依赖于一系列子问题（如成对姿态估计、姿态平均或三角测量），这些子问题提供了一个初始解决方案，然后可以使用BA进行细化。在这项工作中，我们通过学习一个模型来替换这些子问题，该模型将在多个视图中检测到的2D关键点作为输入，并输出相应的相机姿态和3D关键点坐标。我们的模型利用图神经网络来学习SfM特定的基元，并表明它可以用于新的和看不见的序列的重建的快速推理。实验结果表明，所提出的模型优于竞争的基于学习的方法，并在具有较低运行时间的同时挑战了COLMAP。</p>
                                       </div>
                                     </div>
                                   </div>
@@ -4705,8 +4705,6 @@
                                 <a href="http://arxiv.org/pdf/2312.00451v1" target="_blank">PDF</a>
                               </td>
                               <td>
-                                
-                                <a href="https://github.com/VITA-Group/FSGS" target="_blank">Link</a>
                                 
                               </td>
                               <td>
@@ -8853,7 +8851,7 @@
                                       id="ID_2205_14756v6_3_ZH"
                                       role="tabpanel">
                                       <div class="modal-body">
-                                        <p>高分辨率密集预测实现了许多有吸引力的现实世界应用，如计算摄影、自动驾驶等。然而，巨大的计算成本使在硬件设备上部署最先进的高分辨率密集预报模型变得困难。这项工作提出了EfficientViT，这是一个新的高分辨率视觉模型家族，具有新颖的多尺度线性注意力。与先前的高分辨率密集预测模型依赖于大量的softmax注意力、硬件低效的大内核卷积或复杂的拓扑结构来获得良好的性能不同，我们的多尺度线性注意力仅通过轻量级和硬件高效的操作就实现了全局感受野和多尺度学习（高分辨率密集预报的两个理想特征）。因此，EfficientViT在包括移动CPU、边缘GPU和云GPU在内的各种硬件平台上，与以前最先进的型号相比，提供了显著的性能提升，并显著加快了速度。在不损失Cityscapes性能的情况下，与SegFormer和SegNeXt相比，我们的EfficientViT分别提供高达13.9$\times$和6.2$\times$的GPU延迟减少。对于超分辨率，EfficientViT比Restormer提供高达6.4倍的加速，同时在PSNR中提供0.11dB的增益。对于Segment Anything，EfficientViT在A100 GPU上提供了48.9倍的吞吐量，同时在COCO上实现了略好的零样本实例分割性能。</p>
+                                        <p>高分辨率密集预测实现了许多有吸引力的现实世界应用，如计算摄影、自动驾驶等。然而，巨大的计算成本使在硬件设备上部署最先进的高分辨率密集预报模型变得困难。这项工作提出了EfficientViT，这是一个新的高分辨率视觉模型家族，具有新颖的多尺度线性注意力。与先前的高分辨率密集预测模型依赖于大量的softmax注意力、硬件低效的大内核卷积或复杂的拓扑结构来获得良好性能不同，我们的多尺度线性注意力实现了全局感受野和多尺度学习（高分辨率密集预测的两个理想特征）仅具有轻量级和硬件高效的操作。因此，EfficientViT在包括移动CPU、边缘GPU和云GPU在内的各种硬件平台上，与以前最先进的型号相比，提供了显著的性能提升，并显著加快了速度。在不损失Cityscapes性能的情况下，与SegFormer和SegNeXt相比，我们的EfficientViT分别提供高达13.9$\times$和6.2$\times$的GPU延迟减少。对于超分辨率，EfficientViT比Restormer提供高达6.4倍的加速，同时在PSNR中提供0.11dB的增益。对于Segment Anything，EfficientViT在A100 GPU上提供了48.9倍的吞吐量，同时在COCO上实现了略好的零样本实例分割性能。</p>
                                       </div>
                                     </div>
                                   </div>
@@ -8939,8 +8937,6 @@
                                 <a href="http://arxiv.org/pdf/2402.03631v1" target="_blank">PDF</a>
                               </td>
                               <td>
-                                
-                                <a href="https://github.com/weihao1115/cat-sam" target="_blank">Link</a>
                                 
                               </td>
                               <td>
@@ -17111,8 +17107,6 @@
                               </td>
                               <td>
                                 
-                                <a href="https://github.com/dominickrei/Limited-data-vits" target="_blank">Link</a>
-                                
                               </td>
                               <td>
                                 
@@ -17774,6 +17768,8 @@
                               </td>
                               <td>
                                 
+                                <a href="https://github.com/BaoNinh2808/Multi-Branch-Network-for-Imagery-Emotion-Prediction" target="_blank">Link</a>
+                                
                               </td>
                               <td>
                                 
@@ -17925,6 +17921,8 @@
                                 <a href="http://arxiv.org/pdf/2302.05087v3" target="_blank">PDF</a>
                               </td>
                               <td>
+                                
+                                <a href="https://github.com/fudanyliu/GVAED" target="_blank">Link</a>
                                 
                               </td>
                               <td>
@@ -21719,8 +21717,6 @@
                               </td>
                               <td>
                                 
-                                <a href="https://github.com/aicip/Cross-Scale-MAE" target="_blank">Link</a>
-                                
                               </td>
                               <td>
                                 
@@ -21959,8 +21955,6 @@
                               </td>
                               <td>
                                 
-                                <a href="https://github.com/HalleyJiang/RomniStereo" target="_blank">Link</a>
-                                
                               </td>
                               <td>
                                 
@@ -22081,8 +22075,6 @@
                               </td>
                               <td>
                                 
-                                <a href="https://github.com/TonyLianLong/CrossMAE" target="_blank">Link</a>
-                                
                               </td>
                               <td>
                                 
@@ -22200,8 +22192,6 @@
                                 <a href="http://arxiv.org/pdf/2303.13496v3" target="_blank">PDF</a>
                               </td>
                               <td>
-                                
-                                <a href="https://github.com/facebookresearch/maws" target="_blank">Link</a>
                                 
                               </td>
                               <td>
@@ -22743,6 +22733,8 @@
                                 <a href="http://arxiv.org/pdf/2306.01631v4" target="_blank">PDF</a>
                               </td>
                               <td>
+                                
+                                <a href="https://github.com/pat-jj/Gode" target="_blank">Link</a>
                                 
                               </td>
                               <td>
